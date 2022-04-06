@@ -1,0 +1,64 @@
+p {
+    font-family: "Comic Sans MS";
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+table {
+    width: 90%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #c020c0
+}
+th, td {
+    border: 1px solid black;
+}
+main {
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #902090;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header {
+    background-color: #8000a0;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 0.5em;
+    border-style: solid;
+    border-color: #600060;
+}
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #a050a0;
+}
+nav {
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #000000;
+    margin-bottom: 1em;
+    text-align: center;
+}
+nav p {
+    margin: 0;
+}
+.form {
+    margin-bottom: 0.5em;
+}
+#submit {
+    text-align: center;
+}
+#submit input {
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 10px;
+}
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+    box-sizing: border-box; 
+}
