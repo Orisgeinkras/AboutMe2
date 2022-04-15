@@ -16,7 +16,7 @@
         <?php
         $host="localhost";
         $user="ekhoury";
-        $pass="PpBmTvS9n2";
+        $pass="";
         $db = "ekhoury_project";
         $con = new mysqli($host, $user, $pass, $db);
         if($con -> connect_errno) {

@@ -6,7 +6,7 @@ if(isset($_POST['songname']) && isset($_POST['artistname'])) {
     $artistname = addslashes($artistname);
     $host="localhost";
     $user="ekhoury";
-    $pass="PpBmTvS9n2";
+    $pass="";
     $db = "ekhoury_project";
     if(($songname == "") || ($artistname == "")) {
         echo "<p style=\"font-family: arial; margin-bottom: 0;\">You must fill all fields to make a suggestion.</p>";

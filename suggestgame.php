@@ -8,7 +8,7 @@ if(isset($_POST['gamename']) && isset($_POST['genre']) && isset($_POST['console'
     $console = addslashes($console);
     $host="localhost";
     $user="ekhoury";
-    $pass="PpBmTvS9n2";
+    $pass="";
     $db = "ekhoury_project";
     if(($gamename == "") || ($genre == "") || ($console == "")) {
         echo "<p style=\"font-family: arial; margin-bottom: 0;\">You must fill all fields to make a suggestion.</p>";
